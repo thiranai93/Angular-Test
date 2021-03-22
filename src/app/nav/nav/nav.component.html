@@ -1,0 +1,13 @@
+<div class="w-100">
+    <div class="h10"></div>
+    <div class="col-12">
+        RD Tax Filling 1.0.0
+    </div>
+    <div class="h50"></div>
+    <div *ngFor="let menu of menus">
+        <a class="box-menu" (click)="onClickMenu(menu)" [routerLink]="menu.url" routerLinkActive="active-nav">
+            <img class="box-img" [src]='menu.icons'>
+            <div class="col-10">{{menu.name}}</div>
+        </a>
+    </div>
+</div>

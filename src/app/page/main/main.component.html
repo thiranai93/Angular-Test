@@ -1,0 +1,21 @@
+<div class="page" *ngIf="menu">
+    <div class="row  h-100">
+        <div class="w-25 d-inline-block" style="background-color: #e3f7dc;">
+
+            <app-nav></app-nav>
+        </div>
+        <div class="w-75 d-inline-block bg-white">
+            <div class="col-12">
+                <div class="h50">
+                </div>
+                <div class="row">
+                    <img class="box-img" [src]='menu.icons'>
+                    <div class="col-10 font-name">{{menu.name}}</div>
+                    <div class="col-12 h10 underscroll"></div>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

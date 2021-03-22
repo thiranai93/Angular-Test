@@ -1,0 +1,57 @@
+[{
+        "no": "1",
+        "name": "หน้าแรก",
+        "url": "/main",
+        "icons": "/assets/img/house.svg"
+
+    },
+    {
+        "no": "2",
+        "name": "จัดเตรียมข้อมูลแบบ",
+        "url": "/information",
+        "icons": "/assets/img/file-earmark-bar-graph.svg"
+
+    },
+    {
+        "no": "3",
+        "name": "โอนย้าย",
+        "url": "/transfer",
+        "icons": "/assets/img/transfer.svg"
+
+    },
+    {
+        "no": "4",
+        "name": "สำรองข้อมูล",
+        "url": "/backup",
+        "icons": "/assets/img/folder-plus.svg"
+
+    },
+    {
+        "no": "5",
+        "name": "ตั้งค่า",
+        "url": "/setting",
+        "icons": "/assets/img/gear.svg"
+
+    },
+    {
+        "no": "6",
+        "name": "แนะนำการใช้งาน",
+        "url": "/manual",
+        "icons": "/assets/img/journal-text.svg"
+
+    },
+    {
+        "no": "7",
+        "name": "เกี่ยวกับ",
+        "url": "/about",
+        "icons": "/assets/img/exclamation-circle.svg"
+
+    },
+    {
+        "no": "8",
+        "name": "อัพเดท",
+        "url": "/update",
+        "icons": "/assets/img/refresh.svg"
+
+    }
+]

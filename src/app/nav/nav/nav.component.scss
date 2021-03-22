@@ -1,0 +1,32 @@
+.box-menu {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.box-img {
+    width: 16px;
+    height: 24px;
+    margin-left: 35px;
+}
+
+.active-nav>.box-img {
+    width: 16px;
+    height: 24px;
+    margin-left: 25px;
+}
+
+.active-nav {
+    border-left: 10px solid #a5f38a;
+    color: #a5f38a;
+}
+
+a {
+    text-decoration: unset;
+    color: #000;
+}
+
+a:hover {
+    color: #a5f38a;
+}
